@@ -15,6 +15,7 @@
     },
     created () {
       this.$store.dispatch('getAddress')
+      this.$store.dispatch('getUserInfo')
     }
   }
 </script>
